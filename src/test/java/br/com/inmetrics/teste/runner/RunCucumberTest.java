@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 		monochrome = true, 
 		dryRun = false, 
 		glue= {"br/com/inmetrics/teste/steps", "br/com/inmetrics/teste/support"},
-		tags = "@web",
+		tags = "@ct01",
 		snippets = SnippetType.CAMELCASE)
 
 	public class RunCucumberTest{
