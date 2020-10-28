@@ -21,20 +21,9 @@ public class Hooks {
 	}
 
 	@After(value = "@web")
-	public void afterWeb(Scenario cenario) {
-		embeddImagesInReportWeb(cenario);
+	public void afterWeb() {
 		baseTest.tearDown();
 	}
 	
-	private void embeddImagesInReportWeb(Scenario cenario){
-		try {
-			File printFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-					byte[] data = FileUtils.readFileToByteArray(printFile);
-			cenario.embed(data, "image/png");
-		} catch(Exception e){
-			e.printStackTrace();
-			System.out.println(e.getMessage());
-		}
 
-	}
 }

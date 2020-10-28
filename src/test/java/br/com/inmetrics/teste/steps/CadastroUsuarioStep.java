@@ -25,7 +25,7 @@ public class CadastroUsuarioStep {
 
 	@Quando("eu submeto o meu cadastro com os dados solicitados")
 	public void euSubmetoOMeuCadastroComOsDadosSolicitados() {
-		cadastroFunc.realizarCadastro("Rafaee010","123456","123456");
+		cadastroFunc.realizarCadastro("Rafaee012","123456","123456");
 	}
 
 	@Então("valido que sou direcionado para a página de login")
