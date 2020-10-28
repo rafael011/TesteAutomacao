@@ -1,0 +1,2 @@
+[1027/163417.989:ERROR:file_io_win.cc(180)] CreateFile C:\Users\SempreIT\AppData\Local\Temp\scoped_dir15712_835487041\Crashpad\settings.dat: O arquivo já está sendo usado por outro processo. (0x20)
+[1027/193520.105:ERROR:file_io_win.cc(180)] CreateFile C:\Users\SempreIT\AppData\Local\Temp\scoped_dir16612_2126853509\Crashpad\settings.dat: O arquivo já está sendo usado por outro processo. (0x20)
